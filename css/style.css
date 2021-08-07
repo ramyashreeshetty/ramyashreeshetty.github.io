@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo&family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style-type: none;
+    padding: 30px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: cornsilk;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+.nav-list li a:hover {
+    color: crimson;
+}
+
+.misalogo {
+    width: 20%;
+    display: flex;
+}
+
+.misalogo img {
+    width: 20%;
+    transition: 0.5s all ease-in-out;
+}
+
+.misalogo img:hover {
+    transform: scale(1.5);
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../assests/navbg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+/*home-section*/
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    max-width: 60%;
+    margin: auto;
+    height: 70%;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+}
+
+.firstHalf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.secHalf {
+    width: 70%;
+    padding-left: 40px;
+}
+
+.secHalf img {
+    width: 70%;
+    padding: 4px 0;
+    border-radius: 250px;
+    display: block;
+}
+
+.butttons {
+    width: 30%;
+    display: flex;
+    padding-left: 0px;
+}
+
+.discord {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.discord img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.discord:hover img {
+    transform: scale(1.5);
+}
+
+.git {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.git img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.git:hover img {
+    transform: scale(1.5);
+}
+
+.link {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.link img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.link:hover img {
+    transform: scale(1.5);
+}
+
+.text-big {
+    font-size: 40px;
+    padding-bottom: 5px;
+    color: cornsilk;
+    padding-top: 5px;
+}
+
+.text-top {
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: cornsilk;
+    padding-top: 35px;
+}
+
+.text-small {
+    font-size: 20px;
+    color: cornsilk;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+/*about section*/
+
+.secRight {
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 85%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.paras {
+    font-family: 'Source Code Pro', monospace;
+    padding: 40px 40px;
+}
+
+.sectionHead {
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.sectionCon {
+    font-size: 20px;
+    color: black;
+}
+
+.bgcorn {
+    background-color: cornsilk;
+    margin-top: 100px;
+}
+
+.thumbnail {
+    padding: 30px;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.imgFluid {
+    border-radius: 50px;
+}
+
+
+/*work-section*/
+
+#work {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-top: 100px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.woh {
+    font-size: 50px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5px;
+    font-weight: 700px;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 20px;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to top, cornsilk 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .5s;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.box:hover {
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px cornsilk;
+}
+
+.open {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.open img {
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+}
+
+.open:hover img {
+    transform: scale(1.5);
+}
+
+.firstproj {
+    padding-top: 20px;
+    color: black;
+    font-size: 40px;
+    font-weight: 450;
+}
+
+.firstprojdesc {
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 250;
+}
+
+.projimg {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    padding-top: 25px;
+}
+
+
+/*Experience Section*/
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 70px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.exprow {
+    display: flex;
+}
+
+.expbox {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 170px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.exphead {
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.post {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.duration {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.281);
+    font-weight: 400;
+}
+
+.expexp {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+/*contact*/
+
+.sectionContact {
+    font-size: 25px;
+    color: black;
+    font-weight: 500px;
+    padding-top: 20px;
+}
+
+.sectionRight2 {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 75%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.askme {
+    width: 75%;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+
+
+/*footer*/
+
+.foot {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: black;
+    font-weight: 700px;
+    padding: 10px;
+    text-align: center;
+}
+
+.heart {
+    height: 20px;
+    width: 20px;
+    padding-top: 25px;
+}
