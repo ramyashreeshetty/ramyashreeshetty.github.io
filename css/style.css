@@ -408,3 +408,7 @@
     width: 20px;
     padding-top: 25px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
